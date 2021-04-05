@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-test
+  description: This is a test
+  annotations:
+    github.com/project-slug: kflathers-chwy/backstage-demo-app
+spec:
+  type: website
+  lifecycle: experimental
+  owner: Kevin Flathers
